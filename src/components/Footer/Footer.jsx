@@ -45,13 +45,7 @@ const Footer = () => {
           </span>
         </div>
         <div className="right">
-          <img
-            src="/img/payment.png"
-            alt="payment system options"
-            width="800"
-            height="150"
-            object-fit="cover"
-          />
+          <img src="/img/payment.png" alt="payment system options" />
         </div>
       </div>
     </div>

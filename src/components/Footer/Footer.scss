@@ -28,6 +28,7 @@
     .left {
       display: flex;
       align-items: center;
+      width: 20rem;
       .logo {
         color: #2879fe;
         font-weight: bold;
@@ -40,7 +41,12 @@
       }
     }
     .right {
-      display: flex;
+      //display: flex;
+      img {
+        width: 20rem;
+        height: 5rem;
+        object-fit: cover;
+      }
     }
   }
 }

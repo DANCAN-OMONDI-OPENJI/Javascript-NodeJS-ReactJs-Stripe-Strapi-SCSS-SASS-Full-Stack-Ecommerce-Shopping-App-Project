@@ -35,13 +35,13 @@ const Categories = () => {
             src="https://images.pexels.com/photos/1813947/pexels-photo-1813947.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
-          <button>
-            <Link to="/product/1" className="link">
+           <button>
+             <Link to="/product/1" className="link">
               New Season
-            </Link>
-          </button>
+             </Link>
+           </button>
         </div>
-      </div>
+       </div>
       <div className="col col-l">
         <div className="row">
           <div className="col">
