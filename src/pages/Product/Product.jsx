@@ -24,7 +24,7 @@ const Product = () => {
       </div>
       <div className="right">
         <h1>Title</h1>
-        <span>$199</span>
+        <span className="price">$199</span>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
           ipsum dicta suscipit soluta, recusandae reprehenderit quis unde
@@ -47,25 +47,25 @@ const Product = () => {
         <button className="add">
           <AddShoppingCartIcon /> ADD TO CART
         </button>
-        <div className="link">
+        <div className="links">
           <div className="item">
             <FavoriteBorderIcon /> ADD TO WISH LIST
           </div>
           <div className="item">
             <BalanceIcon /> ADD TO COMPARE
           </div>
-          <div className="info">
-            <span>Vendor : Polo</span>
-            <span>Product Type: T-Shirt</span>
-            <span>Tag : T-Shirt, Women, Top</span>
-          </div>
-          <div className="details">
-            <span>DESCRIPTION</span>
-            <hr />
-            <span>ADDITIONAL INFORMATION</span>
-            <hr/>
-            <span>FAQ</span>
-          </div>
+        </div>
+        <div className="info">
+          <span>Vendor : Polo</span>
+          <span>Product Type: T-Shirt</span>
+          <span>Tag : T-Shirt, Women, Top</span>
+        </div>
+        <div className="info">
+          <span>DESCRIPTION</span>
+          <hr />
+          <span>ADDITIONAL INFORMATION</span>
+          <hr />
+          <span>FAQ</span>
         </div>
       </div>
     </div>
